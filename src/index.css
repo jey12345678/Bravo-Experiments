@@ -1,13 +1,300 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@700&display=swap');
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  border:none;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar{
+  height: 200px;
+  color: #472836;
+  width: 100%;
+  
+  display: flex;
+  align-items: center;
+  background-color: #9AD2CB;
 }
+.navbar h1{
+  font-family: 'Lexend Mega', sans-serif;
+  padding-left: 10px;
+  font-size: 40px;
+  background-color: #9AD2CB;
+
+}
+.navbar .links{
+  background-color: #9AD2CB;
+  color: #472836;
+  margin-left: auto;
+}
+.navbar a{
+  background-color: #9AD2CB;
+  color: #472836;
+  font-family: 'Inria Sans', sans-serif;
+  margin-left: 30px;
+  font-size: 35px;
+  text-decoration: none;
+  padding-right: 30px;
+}
+.navbar a:hover{
+  color: #FEFFBE;
+}
+.bravolabslogo{
+  background-color: #9AD2CB;
+}
+.lavalampimage{
+  display: block;
+  background-color: #9AD2CB;
+  height: 620px;
+  width: 100%;
+  border:none;
+}
+.home{
+  align-items: center;
+}
+.divisionOne{
+  height: 100px;
+  width: 100%;
+  background-color: #D7EBBA;
+}
+.ourmissiondivision{
+  height: 100px;
+  width: 100%;
+  background-color: #FEFFBE;
+
+
+}
+.hometext{
+  color: #472836;
+  padding-top: 20px;
+  font-size: 60px;
+  text-align: center;
+  font-family: 'Lexend', sans-serif;
+
+}
+.textdivision{
+  height: 300px;
+  width: 100%;
+  background-color: #D7EBBA;
+  align-items: center;
+}
+.smallerText{
+  color: #472836;
+  padding-left: 10px;
+  padding-top: 14px;
+  font-size: 40px;
+  text-align: left;
+  font-family: 'Lexend', sans-serif;
+}
+.smallText{
+  color: #472836;
+  text-align: center;
+  font-family: 'Lexend', sans-serif;
+  font-size: 40px;
+  padding-left: 10px;
+
+}
+.learnmorebutton{
+  text-align: center;
+  height: 100px;
+  width: 300px;
+  color: #472836;
+  font-size: 40px;
+  font-family: 'Lexend', sans-serif;
+  background-color: #FEFFBE;
+  padding: 0px;
+  margin: 0px;
+}
+.buttonsection{
+  display: flex;
+  justify-content: center;
+  
+
+}
+.learnMoreLink{
+  color: #472836;
+  text-decoration: none;
+  height: 100px;
+  width: 300px;
+  
+}
+.learnmorebutton:hover{
+  background-color: #9AD2CB;
+}
+.pageheaderbackground{
+  background-color: #FEFFBE;
+  width: 100%;
+  height: 100px;
+}
+.videoclass{
+  display: block;
+  
+}
+.bigRectangle{
+  width: 100%;
+  height: 2000px;
+  background-color: #D7EBBA;
+}
+.mediumRectangle{
+  width: 100%;
+  height: 550px;
+  background-color: #D7EBBA;
+  display: flex;
+  justify-content: center;
+}
+.lefttext{
+  color: #472836;
+  padding-top: 20px;
+  padding-left: 10px;
+  font-size: 40px;
+  text-align: left;
+  font-family: 'Lexend', sans-serif;
+
+}
+.textbox{
+  color: #472836;
+  background-color: #FEFFBE;
+  width: 100%;
+  height: 70px;
+  font-family: 'Lexend', sans-serif;
+  font-size:36px;
+}
+.checkbox{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.option{
+  padding-top: 20px;
+  background-color: #FEFFBE;
+}
+.checkboxparameters{
+  width: 50px;
+  height: 50px;
+  padding-left: 10px;
+}
+.labeltext{
+  color: #472836;
+  padding-left: 10px;
+  display: inline-block;
+  font-size: 40px;
+  text-align: left;
+  font-family: 'Lexend', sans-serif;
+}
+.confirmationsign{
+  padding: 10px;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+
+}
+.confirmationbox{
+  background-color: #FEFFBE;
+  width: 100%;
+  height: 200px;
+}
+.card{
+  height: 800px;
+  width: 595px;
+  background-color: #9AD2CB;
+  margin: 20px;
+}
+.cardsGroup{
+  display: flex;
+  
+}
+.experimentRectangle{
+  width: 100%;
+  height: 1800px;
+  background-color: #D7EBBA;
+}
+.cardimage{
+  width: 595px;
+  height: 400px;
+
+}
+.cardHeading{
+  color: #472836;
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Lexend', sans-serif;
+
+}
+.cardText{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #472836;
+  font-size: 25px;
+  text-align: left;
+  padding-left: 10px;
+  font-family: 'Lexend', sans-serif;
+}
+
+.watchdemobutton{
+  text-align: center;
+  height: 100px;
+  width: 300px;
+  color: #472836;
+  font-size: 40px;
+  font-family: 'Lexend', sans-serif;
+  background-color: #FEFFBE;
+  padding: 0px;
+  margin: 0px;
+}
+
+.watchdemobutton:hover{
+  background-color: #D7EBBA;
+}
+.aboutUsImage{
+  
+  width: 1000px;
+  height: 620px;
+  padding: 20px;
+  
+}
+.aboutUsContainer{
+  display:flex;
+  justify-content: left;
+}
+.aboutUsRectangle{
+  width: 100%;
+  height: 750px;
+  background-color: #D7EBBA;
+}
+.aboutUsText{
+  color: #472836;
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-top: 14px;
+  font-size: 42px;
+  text-align: left;
+  font-family: 'Lexend', sans-serif;
+
+
+}
+.reviewtextarea{
+  color: #472836;
+  background-color: #FEFFBE;
+  font-size: 20px;
+  resize: none;
+  width: 100%;
+  padding: 0px;
+  font-family: 'Lexend', sans-serif;
+
+}
+.reviewsRectangle{
+  width: 100%;
+  height: 700px;
+  background-color: #D7EBBA;
+}
+.textInstructions{
+  background-color: #D7EBBA;
+}
+
+
+
+
