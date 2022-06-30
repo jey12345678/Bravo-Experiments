@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Bravo-Experiments/static/css/main.5d2f5318.css",
+    "main.js": "/Bravo-Experiments/static/js/main.6f364529.js",
+    "static/media/lavaLamp.png": "/Bravo-Experiments/static/media/lavaLamp.535369da8678daee60ff.png",
+    "static/media/kidspic.png": "/Bravo-Experiments/static/media/kidspic.ea82cae2abaeffdc5636.png",
+    "static/media/lavalamppic.png": "/Bravo-Experiments/static/media/lavalamppic.99d51079fc9af9bde625.png",
+    "static/media/snowglobepic.png": "/Bravo-Experiments/static/media/snowglobepic.ee16c16149f569d862ad.png",
+    "static/media/volcanopic.png": "/Bravo-Experiments/static/media/volcanopic.e44af0080b93fb7127a5.png",
+    "static/media/ghostbubblespic.png": "/Bravo-Experiments/static/media/ghostbubblespic.8284c48cf5aff8a405a4.png",
+    "static/media/crystalpic.png": "/Bravo-Experiments/static/media/crystalpic.30eab8788842a18da6ab.png",
+    "static/media/elephantpastepic.png": "/Bravo-Experiments/static/media/elephantpastepic.efb7210b003329b8cae4.png",
+    "index.html": "/Bravo-Experiments/index.html",
+    "main.5d2f5318.css.map": "/Bravo-Experiments/static/css/main.5d2f5318.css.map",
+    "main.6f364529.js.map": "/Bravo-Experiments/static/js/main.6f364529.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d2f5318.css",
+    "static/js/main.6f364529.js"
+  ]
+}
