@@ -22,6 +22,7 @@ function App() {
         <Navbar/>
         <div className="content">
           <Routes>
+            <Route path='Bravo-Experiments' element={<Home/>} />
             <Route path = "/" element={ <Home />}></Route>
             <Route path = "/AboutUs.js" element={ <AboutUs />}></Route>
             <Route path = "/Demos.js" element={ <Demos />}></Route>
